@@ -25,6 +25,6 @@ const backgroundTransform = () =>
     h1.innerHTML = "<h1>Hihi tớ cũm v</h1> <p>Mình thành đôi nha</p>";
 }
 bt2.addEventListener("click", ()=> {backgroundTransform();bt2.classList.toggle('none-display');bt1.classList.toggle('none-display')});
-// bt1.addEventListener("mouseenter",() => {randomizePosition()});
+bt1.addEventListener("mouseenter",() => {randomizePosition()});
 bt1.addEventListener("click",() => {randomizePosition();alert("Chọn sai rùi!")});
 randomizePosition();
