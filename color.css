@@ -1,0 +1,27 @@
+.fst{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    scale: 5em;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    transition: 0.3s;
+}
+.sec{
+    border-radius:100px;
+    image-rendering: "https://www.kindpng.com/picc/m/120-1207533_transparent-pixel-hearts-png-minecraft-heart-png-download.png";
+    display: true;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.none-display{
+    display: none;
+}
